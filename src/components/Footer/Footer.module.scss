@@ -1,0 +1,12 @@
+@import '../../variables.scss';
+
+.footerContainer{
+    background-color: $colour-primary-grey;
+    width: 100vw;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footerLinks {
+    display: flex;
+}

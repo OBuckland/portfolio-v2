@@ -1,0 +1,32 @@
+@import '../../variables.scss';
+
+.navContainer {
+    background-color: $colour-primary-pink;
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+    position: fixed;
+    align-items: center;
+    border-radius: 0px 0px 40px 40px;
+}
+
+.navLinks {
+    padding: 20px;
+    margin-right: 20px;
+    display: flex;
+    width: 200px;
+    align-items: center;
+    // color: #8C9CB1;
+    color: $colour-primary-grey;
+    text-decoration: none;
+}
+
+.nameTitle {
+    padding: 20px;
+    margin-left: 20px;
+}
+
+.contactBtn{
+    background-color: $colour-primary-blue;
+    border-radius: 15px;
+}
