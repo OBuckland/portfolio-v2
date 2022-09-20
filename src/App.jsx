@@ -1,4 +1,4 @@
-import './App.css';
+import styles from './App.module.scss';
 import NavBar from './components/NavBar';
 import HeroPage from './components/HeroPage';
 import Projects from './components/Projects';
