@@ -8,17 +8,16 @@
     position: fixed;
     align-items: center;
     border-radius: 0px 0px 40px 40px;
+    text-decoration: none;
 }
 
-.navLinks {
+.navLinksContainer {
     padding: 20px;
     margin-right: 20px;
     display: flex;
-    width: 200px;
+    width: 300px;
     align-items: center;
-    // color: #8C9CB1;
-    color: $colour-primary-grey;
-    text-decoration: none;
+    justify-content: space-evenly;
 }
 
 .nameTitle {
@@ -29,4 +28,6 @@
 .contactBtn{
     background-color: $colour-primary-blue;
     border-radius: 15px;
+    border: solid, $colour-primary-grey;
 }
+
