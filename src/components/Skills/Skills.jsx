@@ -1,7 +1,6 @@
 import React from 'react';
 import styles from './Skills.module.scss';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faEnvelope} from '@fortawesome/free-solid-svg-icons';
 import {faGithub, faReact, faHtml5, faSass, faCss3, faJsSquare} from '@fortawesome/free-brands-svg-icons';
 
 
@@ -12,12 +11,12 @@ const Skills = () => {
 
 
   
-    <FontAwesomeIcon icon={faJsSquare}></FontAwesomeIcon>
-    <FontAwesomeIcon icon={faReact}></FontAwesomeIcon>
-    <FontAwesomeIcon icon={faHtml5}></FontAwesomeIcon>
-    <FontAwesomeIcon icon={faCss3}></FontAwesomeIcon>
-    <FontAwesomeIcon icon={faSass}></FontAwesomeIcon>
-    <FontAwesomeIcon icon={faGithub}></FontAwesomeIcon>
+    <FontAwesomeIcon icon={faJsSquare}/>
+    <FontAwesomeIcon icon={faReact}/>
+    <FontAwesomeIcon icon={faHtml5}/>
+    <FontAwesomeIcon icon={faCss3}/>
+    <FontAwesomeIcon icon={faSass}/>
+    <FontAwesomeIcon icon={faGithub}/>
 
 
 
