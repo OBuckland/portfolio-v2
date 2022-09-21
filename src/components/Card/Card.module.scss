@@ -1,1 +1,32 @@
 @import '../../variables.scss';
+
+.cardContainer{
+    height: 440px;
+    width: 320px;
+    padding: 25px;
+    text-align: left;
+}
+
+.pictureContainer{
+    // height: 326px;
+    // width: 300px;
+    background-color: $colour-primary-pink;
+    border-radius: 7px;
+}
+
+.cardImage {
+    height: 250px;
+}
+
+.textSection {
+    // text-align: left;
+}
+
+.technology {
+    color: $colour-primary-blue;
+    font-size: 15px;
+}
+
+.links{
+font-weight: 600;
+}
