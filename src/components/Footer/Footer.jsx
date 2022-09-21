@@ -3,7 +3,14 @@ import styles from './Footer.module.scss';
 
 const Footer = () => {
   return (
-    <div>Footer</div>
+    <footer className={styles.footerContainer}>
+    <p> Email </p>
+    <div className={styles.footerLinks}>
+    <p> GitHub </p>
+    <p> LinkedIn </p>
+    <p> CV </p>
+    </div>
+    </footer>
   )
 }
 
