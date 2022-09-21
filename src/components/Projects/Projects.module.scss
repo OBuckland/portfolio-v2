@@ -1,1 +1,6 @@
-@import '../../variables.scss'
+@import '../../variables.scss';
+
+.cardsContainer{
+    display: flex;
+    border-radius: 20px;
+}
