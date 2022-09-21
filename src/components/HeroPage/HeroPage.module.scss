@@ -1,2 +1,51 @@
-@import '../../variables.scss'
+@import '../../variables.scss';
 
+.heroPageContainer {
+    display: flex;
+    padding-top: 100px;
+    height: 800px;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+};
+
+.heroPageBtn {
+    background-color: $colour-primary-blue;
+    border-radius: 7px;
+    border: solid, $colour-primary-grey;
+    padding: 16px;
+    font-weight: bold;
+    margin-top: 18px
+};
+
+.profileImage {
+    height: 400px;
+    border-radius: 14px;
+};
+
+.heroTextContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    font-size: 20px;
+};
+
+.textAndImageContainer{
+    display: flex;
+    justify-content: space-between;
+    width: 800px;
+};
+
+.introText{
+    font-size: 20px;
+    font-weight: 100;
+}
+
+.headingText{
+    font-size: 40px;
+    text-align: left;
+    font-weight: 600;
+    margin: 0;
+}
