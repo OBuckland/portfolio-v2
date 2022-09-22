@@ -2,4 +2,22 @@
 
 .aboutContainer {
 background-color: $colour-primary-blue;
+display: flex;
+justify-content: space-evenly;
+align-items: flex-start;
+padding: 60px;
+text-align: left;
+
+}
+
+.textContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    // list-style-type: none;
+}
+
+.aboutIntro{
+    width: 800px;
 }
