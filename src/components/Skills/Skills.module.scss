@@ -1,1 +1,28 @@
-@import '../../variables.scss'
+@import '../../variables.scss';
+
+.skillsContainer{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 60px;
+}
+
+.skillsListContainer {
+    display: flex;
+    justify-content: space-between;
+    // width: 80vw;
+    list-style-type: none;
+    align-items: center;
+    flex-wrap: wrap;
+};
+
+.skills {
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+};
+
+.icons {
+    font-weight: 800;
+}
