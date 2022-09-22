@@ -9,7 +9,8 @@ const Footer = () => {
     <footer className={styles.footerContainer}>
     <p className={styles.contactText}>  Get in touch </p>
     <div className={styles.footerLinks}>
-    <FontAwesomeIcon className={styles.icons} icon={faEnvelope}/>
+    <a href="mailto:oliviabuckland@hotmail.com"><FontAwesomeIcon className={styles.icons} icon={faEnvelope}/></a>
+  
     <FontAwesomeIcon className={styles.icons} icon={faGithub}/>
     <FontAwesomeIcon className={styles.icons} icon={faLinkedin}/>
     <FontAwesomeIcon className={styles.icons} icon={faFile}/>
