@@ -2,12 +2,11 @@
 
 .heroPageContainer {
     display: flex;
-    padding-top: 100px;
-    height: 800px;
+    padding-top: 10px;
+    height: 93vh;
     width: 100vw;
     justify-content: center;
     align-items: center;
-    height: 700px;
 };
 
 .heroPageBtn {
@@ -39,7 +38,7 @@
 };
 
 .introText{
-    font-size: 20px;
+    font-size: 25px;
     font-weight: 100;
 }
 
@@ -48,4 +47,5 @@
     text-align: left;
     font-weight: 600;
     margin: 0;
+    padding-bottom: 5px;
 }
