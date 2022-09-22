@@ -7,9 +7,8 @@ const NavBar = () => {
     <nav className={styles.navContainer}>
     <div className={styles.nameTitle}>Olivia Buckland</div>
     <div className={styles.navLinksContainer}>
-      <a href="#homeSection">Home</a>
-      <a href="#aboutSection">About</a>
       <a href="#projectsSection">Projects</a>
+      <a href="#aboutSection">About</a>
       <button className={styles.contactBtn}>Get in Touch</button>
     </div>
     </nav>
