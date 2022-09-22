@@ -10,9 +10,8 @@ const Card = (props) => {
   const {name, description, image, technology, gitHub, url} = props.project;
 
   return (
-    <section>
 
-      <div className={styles.cardContainer}>
+      <div className={styles.card}>
 
         <div className={styles.pictureContainer}>
           <img className={styles.cardImage} src={image} alt="" />
@@ -30,8 +29,6 @@ const Card = (props) => {
         </div>
 
       </div>
-
-    </section>
   )
 }
 

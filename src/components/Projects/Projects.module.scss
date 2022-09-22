@@ -1,6 +1,14 @@
 @import '../../variables.scss';
 
+.heading{
+    font-size: 30px;
+    background-color: $colour-primary-blue;
+    padding: 15px;
+}
+
 .cardsContainer{
-    display: flex;
-    border-radius: 20px;
+    display: grid;  
+    grid-template-columns: 1fr 1fr;
+    column-gap: 40px;
+    row-gap: 40px;
 }

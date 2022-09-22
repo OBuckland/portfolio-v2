@@ -10,8 +10,11 @@ const Projects = () => {
   // }
 
   return (
-    <section className={styles.cardsContainer}>
-{projectData.map(project => <Card project={project} key={project.name}/>)}
+    <section id='projectsSection' className={styles.projectsContainer}>
+      <h2 className={styles.heading}>Projects</h2>
+      <div className={styles.cardsContainer} >
+      {projectData.map(project => <Card project={project}  key={project.name}/>)}
+      </div>
 
     </ section>
   )

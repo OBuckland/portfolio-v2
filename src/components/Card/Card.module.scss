@@ -1,21 +1,24 @@
 @import '../../variables.scss';
 
-.cardContainer{
-    height: 440px;
-    width: 320px;
+.card{
+    // height: 440px;
+    // width: 320px;
     padding: 25px;
     text-align: left;
 }
 
 .pictureContainer{
-    // height: 326px;
-    // width: 300px;
+    // width: 110%;
+    height: 60%;
     background-color: $colour-primary-pink;
     border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .cardImage {
-    height: 250px;
+    height: 200px;
 }
 
 .textSection {
