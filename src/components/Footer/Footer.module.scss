@@ -4,9 +4,25 @@
     background-color: $colour-primary-grey;
     width: 100vw;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
+    color: white;
+    align-items: center;
 }
 
 .footerLinks {
+    display: flex;
+    border-radius: 50%, solid;
+    display: flex;
+}
+
+.icons{
+    background-color: $colour-primary-blue;
+    border-radius: 50%;
+    padding: 10px;
+    margin: 10px;
+}
+
+.contactText {
+    color: white;
     display: flex;
 }
