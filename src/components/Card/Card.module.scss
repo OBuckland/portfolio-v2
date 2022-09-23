@@ -1,36 +1,25 @@
 @import '../../variables.scss';
 
-.card{
-    // height: 440px;
-    // width: 320px;
-    padding: 25px;
-    text-align: left;
-    color: $colour-primary-grey;
-}
-
-.pictureContainer{
-    // width: 110%;
-    height: 60%;
-    background-color: $colour-primary-pink;
-    border-radius: 7px;
+.card {
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
+    height: 350px;
+    width: 350px;
+    transform-style: preserve-3d;
+    transition: 1090ms;
 }
 
-.cardImage {
-    height: 200px;
+.faceDown{
+    transform: perspective(1000px) rotateY(-180deg);
 }
 
-.textSection {
-    // text-align: left;
+.front, .back {
+    position: absolute;
+    backface-visibility: hidden;
 }
 
-.technology {
-    color: $colour-primary-blue;
-    font-size: 15px;
-}
-
-.links{
-font-weight: 600;
+.back{
+    transform: rotateY(180deg);
 }
