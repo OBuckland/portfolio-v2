@@ -7,7 +7,6 @@ import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 const Footer = () => {
   return (
     <footer className={styles.footerContainer}>
-    <p className={styles.contactText}>  Get in touch </p>
     <div className={styles.footerLinks}>
     <a href="mailto:oliviabuckland@hotmail.com"><FontAwesomeIcon className={styles.icons} icon={faEnvelope}/></a>
   
