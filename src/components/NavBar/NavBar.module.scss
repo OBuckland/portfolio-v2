@@ -10,7 +10,6 @@
     // position: fixed;
     align-items: center;
     border-radius: 0px 0px 40px 40px;
-    text-decoration: none;
     color: $colour-primary-grey;
 }
 
@@ -33,9 +32,14 @@
 
 .contactBtn{
     background-color: $colour-primary-blue;
-    border-radius: 15px;
-    border: solid, $colour-primary-grey;
+    border-radius: 7px;
+    border: none;
     font-size: 20px;
     color: $colour-primary-grey;
+    padding: 9px;
 }
 
+a{
+    color: $colour-primary-grey;
+    text-decoration: none;
+}
