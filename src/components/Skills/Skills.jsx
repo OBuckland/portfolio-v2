@@ -10,7 +10,7 @@ const Skills = () => {
   return (
     <section className={styles.skillsContainer}>
     <h2 className={styles.heading}>Technical Skills</h2>
-    <p>Below are some of the tools I can use/ I am familiar with the following technologies/ tech stack I have been working with..</p>
+    <p>Here is the tech stack I have been working with...</p>
 
     <ul className={styles.skillsListContainer}>
       <li className={styles.skills}>
@@ -59,7 +59,7 @@ const Skills = () => {
       </li>
       <li className={styles.skills}>
        <FontAwesomeIcon className={styles.icons}  icon={faVials}/>
-         Jest / Enzyme / React Testing Library
+        Testing
       </li>
     </ul>
     </ section>
