@@ -17,10 +17,9 @@
 .skillsListContainer {
     display: flex;
     justify-content: space-between;
-    // width: 80vw;
     list-style-type: none;
-    align-items: center;
     flex-wrap: wrap;
+    width: 60vw;
 };
 
 .skills {
