@@ -13,15 +13,18 @@ const CardBack = (props) => {
 
     <div className={styles.textContainer}>
         <p>{description}</p>
-        <a href={gitHub}  target="_blank">Code <FontAwesomeIcon icon={faCode} /></a>
-        <a href={url}  target="_blank">  Preview <FontAwesomeIcon icon={faEye} /> </a>
+        <div className={styles.iconsContainer}>
+          <a className={styles.icons} href={gitHub}  target="_blank">Code <FontAwesomeIcon icon={faCode} /></a>
+          <a className={styles.icons} href={url}  target="_blank">Preview <FontAwesomeIcon icon={faEye} /></a>
         </div>
+        
+    </div>
 
 
-        <div className={styles.titleContainer}>
-          <h1>{name}</h1>
-          <h3 className={styles.technology}>{technology}</h3>
-        </div>
+    <div className={styles.titleContainer}>
+        <h1>{name}</h1>
+        <h3 className={styles.technology}>{technology}</h3>
+    </div>
 
   </div>
 
