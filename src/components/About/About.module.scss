@@ -21,3 +21,8 @@ color: $colour-primary-grey;
 .aboutIntro{
     width: 800px;
 }
+
+.jobContainer {
+    display: flex;
+    justify-content: space-between;
+}
