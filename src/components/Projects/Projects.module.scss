@@ -10,6 +10,8 @@
 .heading{
     font-size: 30px;
     background-color: $colour-primary-blue;
+    // this is causing the lower gap
+    width: 100vw;
     padding: 15px;
     color: $colour-primary-grey;
 }
