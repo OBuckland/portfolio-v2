@@ -8,7 +8,7 @@ const Footer = () => {
   return (
     <footer className={styles.footerContainer}>
     <div className={styles.footerLinks}>
-    <a href="mailto:oliviabuckland@hotmail.com"><FontAwesomeIcon className={styles.icons} icon={faEnvelope}/></a>
+    <a href="mailto:oliviabuckland@hotmail.com" target="_blank"><FontAwesomeIcon className={styles.icons} icon={faEnvelope}/></a>
   
     <FontAwesomeIcon className={styles.icons} icon={faGithub}/>
     <FontAwesomeIcon className={styles.icons} icon={faLinkedin}/>

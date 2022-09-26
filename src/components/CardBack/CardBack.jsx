@@ -13,8 +13,8 @@ const CardBack = (props) => {
 
     <div className={styles.textContainer}>
         <p>{description}</p>
-        <a href={gitHub}>Code <FontAwesomeIcon icon={faCode} /></a>
-        <a href={url}>  Preview <FontAwesomeIcon icon={faEye} /> </a>
+        <a href={gitHub}  target="_blank">Code <FontAwesomeIcon icon={faCode} /></a>
+        <a href={url}  target="_blank">  Preview <FontAwesomeIcon icon={faEye} /> </a>
         </div>
 
 
