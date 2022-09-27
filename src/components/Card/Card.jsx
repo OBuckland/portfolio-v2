@@ -13,20 +13,22 @@ const Card = (props) => {
   // const {name, description, image, technology, gitHub, url} = props.project;
 
   return (
-    <section 
+    <section className={styles.cardContainer}>
+    <div className={`${flipStyles} ${styles.card}`}
+        onClick={() => setIsFaceDown(!isFaceDown)}>      
+          <div className={styles.front}>
+            <CardFront project={project} />
+          </div>
 
-    className={`${flipStyles} ${styles.card}`}
-    onClick={() => setIsFaceDown(!isFaceDown)}>
+          <div className={styles.back}>
+            <CardBack project={project}/>
+          </div>
+      </div>
       
-      <div className={styles.front}>
-        <CardFront project={project} />
-      </div>
-
-      <div className={styles.back}>
-        <CardBack project={project}/>
-      </div>
-
-
+    <div className={styles.titleContainer}>
+        <h1>{project.name}</h1>
+        <h3 className={styles.technology}>{project.technology}</h3>
+    </div>
     </section>
   )
 }
