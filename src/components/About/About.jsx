@@ -8,7 +8,7 @@ import gov from '../../assets/defra-logo.jpeg';
 const About = () => {
   return (
     <section id="aboutSection" className={styles.aboutContainer}>
-      <h2>About me</h2>
+      <h2 className={styles.pageTitle}>About me</h2>
 
 
       <div className={styles.rightSideContainer}>

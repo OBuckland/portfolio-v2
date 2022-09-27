@@ -8,21 +8,52 @@ justify-content: space-evenly;
 padding: 60px;
 text-align: left;
 color: $colour-primary-grey;
+
+@media screen and (max-width:1090px) {
+    // text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+};
+}
+
+.pageTitle{
+    @media screen and (max-width:1090px) {
+    padding-bottom: 20px;
+}
 }
 
 .aboutIntro{
     width: 800px;
     margin-bottom: 20px;
+    @media screen and (max-width:840px) {
+        width: 80%;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    };
+
 }
 
 .experienceContainer {
     display: flex;
     width: 800px;
+    @media screen and (max-width:845px) {
+        flex-direction: column;
+        align-items: center;
+    };
 }
 
 .jobContainer {
     display: flex;
     flex-direction: column;
+    @media screen and (max-width:845px) {
+        // flex-direction: column;
+        // align-items: left;
+        width: 700px;
+        padding: 10px;
+    };
 }
 
 // .textContainer {
