@@ -1,25 +1,42 @@
 @import '../../variables.scss';
-.textContainer{
-    font-weight: 600;
-    height: 180px;
-    padding: 20px
-    }
+// .textContainer{
+//     // font-weight: 00;
+//     height: 180px;
+//     padding: 20px;
+//     display: flex;
+//     flex-direction: column;
+//     justify-content: space-evenly;
+//     }
 
 
 
     .cardBack {
         background-color: $colour-primary-pink;
-        height: 200px;
-        width: 300px;
+        // height: 200px;
+        // width: 300px;
         // padding: 25px;
+ 
+        display: flex;
+        flex-direction: column;
+         justify-content: space-evenly;
         color: $colour-primary-grey;
         text-align: left;
         padding: 15px;
+        height: 300px;
+        width: 400px;
     }
 
-    .technology {
-        color: $colour-primary-blue;
-        font-size: 15px;
+
+
+    .iconsContainer{
+     align-items: center;
+     display: flex;
+     justify-content: center;
+    }
+
+    .icons {
+        padding: 10px;
+        font-weight: 700;
     }
 
     // .textContainer {

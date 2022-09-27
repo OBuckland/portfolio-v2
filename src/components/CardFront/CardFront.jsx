@@ -16,11 +16,6 @@ const CardFront = (props) => {
           <img className={styles.cardImage} src={image} alt="" />
         </div>
 
-        <div className={styles.textContainer}>
-          <h1>{name}</h1>
-          <h3 className={styles.technology}>{technology}</h3>
-        </div>
-
       </div>
   )
 }
