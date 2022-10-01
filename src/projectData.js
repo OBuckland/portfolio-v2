@@ -1,9 +1,9 @@
 import profileImage1 from "./assets/portfolio-profile.jpg";
 import masterMind from "./assets/mastermind.png";
 import brewdog from "./assets/bewdog.png";
-import calculator from "./assets/calculator.png";
-import hostileAliens from "./assets/hostile-aliens.png";
-import morseCode from "./assets/morsecode.png";
+import calculator from "./assets/calculator2.png";
+import hostileAliens from "./assets/hostile-aliens2.png";
+import morseCode from "./assets/morsecode2.png";
 
 
 export const projectData = [
@@ -16,8 +16,8 @@ export const projectData = [
         url: "https://obuckland.github.io/mastermind-game/"    
     },
     {
-        name: "Brewdog",
-        description: "This is a React built App. It displays Brewdog beers, each beer has a: name, image, ABV and tagline. Data has been taken from the Punk API, which contained the beer data used for the app. Where possible the App has been unit tested.",
+        name: "Brewdog API",
+        description: <p>This is a React built App. It displays Brewdog beers, each beer has a: name, image, ABV and tagline. There is a filter function to refine the user's search. <br /> <br />Data has been taken from the Punk API, which contained the beer data used for the app. Where possible the App has been unit tested using Enzyme.</p>,
         image: brewdog,
         technology: "React",
         gitHub: "https://github.com/OBuckland/mastermind-game",
@@ -25,7 +25,7 @@ export const projectData = [
     },
     {
         name: "Hostile Aliens",
-        description: "This game is loosely based on the Space Invaders arcade game. The game has been built using an OOP approach and unit tested using Jest. The player presses the fire button to randomly hit one of the ships. There are 3 types of ships: mothership, defence ship and attack ship. The game is won when either the mothership is destroyed or all ships reach zero points.",
+        description: "This game is loosely based on the Space Invaders arcade game. The game has been built using an OOP approach and unit tested using Jest. ",
         image: hostileAliens,
         technology: "JavaScript",
         gitHub: "https://github.com/OBuckland/hostile-aliens",
