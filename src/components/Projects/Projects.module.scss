@@ -11,14 +11,17 @@
     font-size: 30px;
     background-color: $colour-primary-blue;
     // this is causing the lower gap
-    width: 100vw;
+    // width: 100vw;
+    // width: 100%;
     padding: 15px;
     color: $colour-primary-grey;
 }
 
 .cardsContainer{
-    display: grid;  
-    grid-template-columns: 1fr 1fr 1fr;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
     gap: 40px;
     align-items: center;
 }
