@@ -2,7 +2,7 @@
 
 .footerContainer{
     background-color: $colour-primary-grey;
-    width: 100vw;
+    // width: 100%;
     display: flex;
     justify-content: center;
     color: $colour-primary-grey;
@@ -21,4 +21,6 @@
     padding: 10px;
     margin: 10px;
     color: $colour-primary-grey;
+    width: 25px;
+    height: 25px;
 }
