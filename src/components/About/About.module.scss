@@ -26,13 +26,9 @@ color: $colour-primary-grey;
 .aboutIntro{
     width: 800px;
     margin-bottom: 20px;
-    @media screen and (max-width:840px) {
-        width: 80%;
-        text-align: center;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    };
+    // @media screen and (max-width:840px) {
+    // //   padding: ;
+    // };
 
 }
 
@@ -85,3 +81,13 @@ color: $colour-primary-grey;
     justify-content: center;
     flex-wrap: wrap;
 }
+
+.profileImage {
+    display: none;
+    @media  screen and (max-width: 920px) {
+        height: 300px;
+        border-radius: 14px;
+        display: flex;
+        padding-bottom: 20px;
+    }
+};

@@ -3,6 +3,7 @@ import styles from './About.module.scss';
 import nology from '../../assets/nology_logo2.jpeg';
 import nhs from '../../assets/nhs-logo2.jpg';
 import gov from '../../assets/defra-logo.jpeg';
+import profileImage from '../../assets/portfolio-profile.jpg';
 
 
 const About = () => {
@@ -10,6 +11,7 @@ const About = () => {
     <section id="aboutSection" className={styles.aboutContainer}>
       <h2 className={styles.pageTitle}>About me</h2>
 
+      <img className={styles.profileImage} src={profileImage} alt="profile" />
 
       <div className={styles.rightSideContainer}>
         
