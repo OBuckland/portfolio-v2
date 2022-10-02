@@ -45,7 +45,9 @@
     align-items: flex-start;
     font-size: 20px;
     width: 500px;
-    
+    @media  screen and (max-width: 550px) {
+       width: 80vw;
+     }
 };
 
 // .textAndImageContainer{
@@ -65,4 +67,7 @@
     font-weight: 600;
     margin: 0;
     padding-bottom: 5px;
+    @media screen and (ax-width: 570px) {
+        font-size: 30px;
+    }
 }

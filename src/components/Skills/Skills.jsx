@@ -10,7 +10,7 @@ const Skills = () => {
   return (
     <section className={styles.skillsContainer}>
     <h2 className={styles.heading}>Technical Skills</h2>
-    <p>Here is the tech stack I have been working with...</p>
+    <p className={styles.description}>Here is the tech stack I have been working with...</p>
 
     <ul className={styles.skillsListContainer}>
       <li className={styles.skills}>

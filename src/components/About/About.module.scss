@@ -26,9 +26,9 @@ color: $colour-primary-grey;
 .aboutIntro{
     width: 800px;
     margin-bottom: 20px;
-    // @media screen and (max-width:840px) {
-    // //   padding: ;
-    // };
+    @media screen and (max-width:800px) {
+        width: 80vw;
+    };
 
 }
 
@@ -38,6 +38,7 @@ color: $colour-primary-grey;
     @media screen and (max-width:845px) {
         flex-direction: column;
         align-items: center;
+        width: 80vw;
     };
 }
 
@@ -50,6 +51,10 @@ color: $colour-primary-grey;
         width: 700px;
         padding: 10px;
     };
+    @media  screen and (max-width:700px) {
+        width: 80vw;
+        padding: 5px;
+    }
 }
 
 // .textContainer {
@@ -91,3 +96,11 @@ color: $colour-primary-grey;
         padding-bottom: 20px;
     }
 };
+
+.rightSideContainer {
+    @media screen and (max-width:800px) {
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+    };
+}
