@@ -32,14 +32,23 @@
     transform: rotateY(180deg);
 }
 
-.titleContainer {
+.titleAndTechContainer {
     color: $colour-primary-grey;
     text-align: start;
 }
 
-.technology {
-    color: $colour-primary-blue;
+.technologyList {
+    display: flex;
+    // color: $colour-primary-blue;
     // color: $colour-primary-pink;
+    list-style: none;
     font-size: 15px;
-    // background-color: $colour-primary-blue;
+
+}
+
+.technology{
+    border-radius: 15px;
+    background-color: $colour-primary-blue;
+    padding: 7px;
+    margin: 5px 5px 0 0 ;
 }

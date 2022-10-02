@@ -25,10 +25,15 @@ const Card = (props) => {
           </div>
       </div>
       
-    <div className={styles.titleContainer}>
-        <h1>{project.name}</h1>
-        <h3 className={styles.technology}>{project.technology}</h3>
+    <div className={styles.titleAndTechContainer}>
+        <h3>{project.name}</h3>
+        <ul className={styles.technologyList}>
+          {project.technologies.map((technology) => {
+            return <li className={styles.technology} key={technology}>{technology}</li>
+          })}
+        </ul>
     </div>
+
     </section>
   )
 }
