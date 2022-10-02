@@ -6,8 +6,7 @@
     padding: 15px;
     display: flex;
     justify-content: space-between;
-    // width: 100vw;
-    // position: fixed;
+    width: 100vw;
     align-items: center;
     border-radius: 0px 0px 40px 40px;
     color: $colour-primary-grey;
@@ -21,13 +20,25 @@
     align-items: center;
     justify-content: space-evenly;
     font-size: 20px;
+    cursor: pointer;
 }
 
 .nameTitle {
     padding: 20px;
     margin-left: 20px;
-    font-weight: 600;
+    font-weight: 400;
     font-size: 25px;
+    @media screen and (max-width: 800px) {
+        display: none;
+    }
+}
+
+.nameTitleInitals{
+    display: none;
+    @media screen and (max-width: 800px) {
+        display: block;
+        font-size: 25px;
+    }
 }
 
 .contactBtn{
@@ -37,9 +48,15 @@
     font-size: 20px;
     color: $colour-primary-grey;
     padding: 9px;
+    cursor: pointer;
 }
 
-a{
-    color: $colour-primary-grey;
-    text-decoration: none;
+
+.menuIsOpenStyle {
+    display: flex;
+    flex-direction: column;
+}
+
+.menuIsClosedStyle {
+    display: none;
 }
