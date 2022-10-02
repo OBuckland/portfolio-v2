@@ -31,10 +31,9 @@ const About = () => {
               </div>
             </div>
             <ul>
-              <li>Learning full-stack web development skills with emphasis on front-end languages</li>
-              <li>Implementing industry methodologies and frameworks in my work</li>
-              <li>mplementing industry methodologies and frameworks in my work</li>
-              <li>mplementing industry methodologies and frameworks in my work</li>
+              <li>Learning full-stack web development skills with emphasis on front-end languages.</li>
+              <li>Implementing industry methodologies and frameworks in my work.</li>
+              <li>Researching and implementing solutions independently. Seeking advice from peers and coaches when needed. </li>
             </ul>
           </div>
 
@@ -49,10 +48,9 @@ const About = () => {
               </div>
             </div>
             <ul>
-              <li>Delivering vaccinations at mass vaccination sites, mobile vaccination units and patients' homes</li>
-              <li>In charge of leading a team of both clinical and non-clinical staff</li>
-              <li>Training new staff</li>
-              <li>Ensure everyone in the team was working safely and effectively</li>
+              <li>Delivering vaccinations at mass vaccination sites, mobile vaccination units and patients' homes.</li>
+              <li>In charge of leading a team of both clinical and non-clinical staff.</li>
+              <li>Ensure everyone in the team was working safely and effectively.</li>
             </ul>
           </div>
 
@@ -67,9 +65,9 @@ const About = () => {
               </div>
             </div>
             <ul>
-              <li>Training, supervising and monitoring the junior members of the team</li>
-              <li>Responsible for drafting accurate and comprehensive answers to Parliamentary Questions</li>
-              <li>Working to tight weekly deadlines</li>
+              <li>Training, supervising and monitoring the junior members of the team.</li>
+              <li>Responsible for drafting accurate and comprehensive answers to Parliamentary Questions.</li>
+              <li>Working to tight weekly deadlines.</li>
             </ul>
           </div>
         </section>
