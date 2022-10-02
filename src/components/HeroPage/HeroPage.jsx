@@ -11,7 +11,7 @@ const HeroPage = () => {
     <section id="homeSection" className={styles.heroPageContainer}>
       
         <div className={styles.heroTextContainer}>
-        <h3 className={styles.introText}>{  <FontAwesomeIcon icon={faCat}></FontAwesomeIcon>}  Hey! I'm Olivia Buckland</h3>
+        <h3 className={styles.introText}>{  <FontAwesomeIcon icon={faCat}></FontAwesomeIcon>}  Hey! I'm Olivia</h3>
         <h1 className={styles.headingText}> A Junior Software Developer based in Sydney.</h1>
         <Link className={styles.heroPageBtn} 
             activeClass="active"
