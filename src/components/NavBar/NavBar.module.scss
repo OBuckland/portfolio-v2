@@ -21,11 +21,24 @@
     justify-content: space-evenly;
     font-size: 20px;
     cursor: pointer;
+    @media screen and (max-width: 666px) {
+        display: flex;
+        justify-content: flex-end;
+    }
+}
+
+.navLinks{
+    display: flex;
+    justify-content: space-evenly;
+    width: 300px;
+    cursor: pointer;
+    @media screen and (max-width: 666px) {
+        display: none;
+    }
 }
 
 .nameTitle {
-    padding: 20px;
-    margin-left: 20px;
+    margin-left: 55px;
     font-weight: 400;
     font-size: 25px;
     @media screen and (max-width: 800px) {
@@ -38,6 +51,9 @@
     @media screen and (max-width: 800px) {
         display: block;
         font-size: 25px;
+        padding: 50px;
+        // margin-left: 20px;
+        font-weight: 400;
     }
 }
 
@@ -47,7 +63,7 @@
     border: none;
     font-size: 20px;
     color: $colour-primary-grey;
-    padding: 9px;
+    padding: 10px;
     cursor: pointer;
 }
 
@@ -55,8 +71,29 @@
 .menuIsOpenStyle {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
+    position: absolute;
+    top: 58px;
+    right: 53px;
+    height: 150px;
+    width: 125px;
+    border-radius: 0 0 10px 10px;
+    padding: 10px;
+    border: solid $colour-primary-pink;
+    border-top: 0;
+    background-color:$colour-primary-blue;
 }
+
 
 .menuIsClosedStyle {
     display: none;
+}
+
+.contactLinks {
+    color: $colour-primary-grey;
+}
+
+.contactLinks:hover {
+    text-decoration: underline;
+    color: $colour-primary-pink;
 }

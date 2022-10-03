@@ -21,27 +21,33 @@ const NavBar = () => {
   // }
   return (
     <nav className={styles.navContainer}>
-    <div className={styles.nameTitle}>Olivia Buckland</div>
-    <div className={styles.nameTitleInitals}>OB</div>
-    <div className={styles.navLinksContainer}>
-      <Link 
-        activeClass="active"
-        to="projectsSection"
-        smooth={true}>
-          Projects
-      </Link>
+        <div className={styles.nameTitle}>Olivia Buckland</div>
+        <div className={styles.nameTitleInitals}>OB</div>
+        <div className={styles.navLinksContainer}>
+          <div className={styles.navLinks}>
+              <Link 
+                activeClass="active"
+                to="projectsSection"
+                smooth={true}>
+                  Projects
+              </Link>
 
-      <Link
-            activeClass="active"
-            to="aboutSection"
-            smooth={true}>
-        About
-      </Link>
-      <button onClick={toggleContactMenu} className={styles.contactBtn}>Get in Touch</button>
+              <Link
+                    activeClass="active"
+                    to="aboutSection"
+                    smooth={true}>
+                About
+          </Link>
+          </div>
+          <button onClick={toggleContactMenu} className={styles.contactBtn}>Get in Touch</button>
+          </div>
+    <div className={contactStyle}>
+        <a className={styles.contactLinks} href="mailto:oliviabuckland@hotmail.com" target="_blank">Email</a>
+        <a className={styles.contactLinks} href="https://linkedin.com/in/olivia-buckland-43b0a4167" target="_blank">
+          Linkedin</a> 
+        <a className={styles.contactLinks} href=""target="_blank">CV</a>
 
-
-    </div>
-
+      </div> 
 
      {/* <div>
       <select onChange={handleChange} >
