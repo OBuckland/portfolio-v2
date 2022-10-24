@@ -18,22 +18,19 @@
  
         display: flex;
         flex-direction: column;
-         justify-content: space-evenly;
+        justify-content: space-evenly;
         color: $colour-primary-grey;
         text-align: left;
         padding: 15px;
         height: 300px;
-        width: 450px;
+        width: 420px;
         word-spacing: 1px;
         box-shadow: 1px 2px 10px #888888;
         @media screen and (max-width: 500px) {
             height: 200px;
             width: 300px;
         }
-
     }
-
-
 
     .iconsContainer{
      align-items: center;
@@ -50,3 +47,9 @@
     // .textContainer {
     //     height: 180px;
     // }
+
+    .descriptionText {
+        @media screen and (max-width: 500px) {
+            font-size: 13px;
+        }
+    }
