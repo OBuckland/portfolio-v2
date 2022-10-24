@@ -13,7 +13,6 @@
 }
 
 .navLinksContainer {
-    padding: 20px;
     margin-right: 20px;
     display: flex;
     width: 500px;
@@ -38,7 +37,7 @@
 }
 
 .nameTitle {
-    margin-left: 55px;
+    margin-left: 40px;
     font-weight: 400;
     font-size: 25px;
     @media screen and (max-width: 800px) {
@@ -51,7 +50,7 @@
     @media screen and (max-width: 800px) {
         display: block;
         font-size: 25px;
-        padding: 50px;
+        padding: 30px;
         // margin-left: 20px;
         font-weight: 400;
     }
@@ -63,7 +62,12 @@
     border: none;
     font-size: 20px;
     color: $colour-primary-grey;
-    padding: 10px;
+    padding: 5px;
+    // font-size: 10px;
+    // display: flex;
+    // justify-content: center;
+    // align-items: center;
+    // width: 125px;
     cursor: pointer;
 }
 
@@ -73,10 +77,10 @@
     flex-direction: column;
     justify-content: space-between;
     position: absolute;
-    top: 58px;
-    right: 53px;
+    top: 49px;
+    right: 65px;
     height: 150px;
-    width: 125px;
+    width: 126px;
     border-radius: 0 0 10px 10px;
     padding: 10px;
     border: solid $colour-primary-pink;
@@ -94,6 +98,6 @@
 }
 
 .contactLinks:hover {
-    text-decoration: underline;
+    // text-decoration: underline;
     color: $colour-primary-pink;
 }
