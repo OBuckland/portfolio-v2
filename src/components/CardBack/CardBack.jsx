@@ -10,7 +10,7 @@ const CardBack = (props) => {
 
     <div className={styles.cardBack}>
 
-        <p>{description}</p>
+        <p className={styles.descriptionText}>{description}</p>
         <div className={styles.iconsContainer}>
           <a className={styles.icons} href={gitHub}  target="_blank">Code <FontAwesomeIcon icon={faCode} /></a>
           <a className={styles.icons} href={url}  target="_blank">Preview <FontAwesomeIcon icon={faEye} /></a>
