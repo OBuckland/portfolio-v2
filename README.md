@@ -1,70 +1,49 @@
-# Getting Started with Create React App
+# **Portfolio Version 2**
+***
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### **Description**
+This is the second portfolio I have built, my original one was the very web application I made. The orginial site was built using Semantic HTML and CSS. Since learning React I have now re-built my portfolio using the new skills/knowledge I now have, .. this has made my application more interactive and intereting for the user. I designed the app using figma wirframe.. (link) 
 
-## Available Scripts
 
-In the project directory, you can run:
+Future development
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
+| **Table of contents** |
+|---|
+| Technology |
+| Design |
+| Images |
+| Links |
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+### **Technology**
+*   ReactJS
+*   JavaScript in ReactJS
+*   CSS
+*   SCSS
+*   BEM
+*   Git & GitHub
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+### **Design**
+*   Designed using figma
+*   Colours were chosen using the Coolors site
+*   Responsive to device size
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+### **Images**
+<!-- <img src="/assets/images/first-page-screenshot.png" alt="Image of game home page" width="300px">
+<img src="/assets/images/second-page-screenshot.png" alt="Image of how to play page" width="300px">
+<img src="/assets/images/Gameboard-screenshot.png" alt="Image of game play page" width="300px">
+<img src="/assets/images/reset-modal-screenshot.png" alt="Image of reset modal" width="300px">
+<img src="/assets/images/winning-modal.png" alt="Image of winning game modal" width="300px"> -->
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### **Links**
+[GitHub repository](https://github.com/OBuckland/portfolio-v2 "Link to GitHub")
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+[Figma design](https://www.figma.com/file/DXYH2CtP5e5kMUAm7YtMgd/Portfolio-Take-2-Design-Ideas?node-id=6%3A3 "Link to Figma")
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[The portfolio](obuckland.github.io/portfolio-v2/ "Link to Portfolio")
