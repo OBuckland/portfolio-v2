@@ -63,11 +63,6 @@
     font-size: 20px;
     color: $colour-primary-grey;
     padding: 5px;
-    // font-size: 10px;
-    // display: flex;
-    // justify-content: center;
-    // align-items: center;
-    // width: 125px;
     cursor: pointer;
 }
 
@@ -86,6 +81,9 @@
     border: solid $colour-primary-pink;
     border-top: 0;
     background-color:$colour-primary-blue;
+    @media screen and (max-width: 666px) {
+        right: 35px;
+    }
 }
 
 
