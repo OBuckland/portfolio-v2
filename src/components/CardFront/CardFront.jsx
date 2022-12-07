@@ -6,7 +6,7 @@ import styles from './CardFront.module.scss';
 
 const CardFront = (props) => {
 
-  const {name, description, image, technology, gitHub, url} = props.project;
+  const {image} = props.project;
 
   return (
 
