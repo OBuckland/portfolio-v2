@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/portfolio-v2/static/css/main.40e98ff5.css",
+    "main.css": "/portfolio-v2/static/css/main.2477f24b.css",
     "main.js": "/portfolio-v2/static/js/main.0b2e3e74.js",
     "static/js/787.d9a20797.chunk.js": "/portfolio-v2/static/js/787.d9a20797.chunk.js",
     "static/media/portfolio-profile.jpg": "/portfolio-v2/static/media/portfolio-profile.89238df9f3b926d09559.jpg",
@@ -13,12 +13,12 @@
     "static/media/calculator2.png": "/portfolio-v2/static/media/calculator2.61a8976c6b20075fd0a4.png",
     "static/media/defra-logo.jpeg": "/portfolio-v2/static/media/defra-logo.e7e181bc0d8347b6ce6b.jpeg",
     "index.html": "/portfolio-v2/index.html",
-    "main.40e98ff5.css.map": "/portfolio-v2/static/css/main.40e98ff5.css.map",
+    "main.2477f24b.css.map": "/portfolio-v2/static/css/main.2477f24b.css.map",
     "main.0b2e3e74.js.map": "/portfolio-v2/static/js/main.0b2e3e74.js.map",
     "787.d9a20797.chunk.js.map": "/portfolio-v2/static/js/787.d9a20797.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.40e98ff5.css",
+    "static/css/main.2477f24b.css",
     "static/js/main.0b2e3e74.js"
   ]
 }
