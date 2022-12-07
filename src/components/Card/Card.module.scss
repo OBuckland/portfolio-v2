@@ -53,3 +53,9 @@
     padding: 7px;
     margin: 5px 5px 0 0 ;
 }
+
+.projectTitle {
+    @media screen and (max-width: 500px) {
+        padding-top: 10px;
+    }
+}
