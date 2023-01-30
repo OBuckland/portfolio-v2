@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import styles from "./NavBar.module.scss";
 import { Link, animateScroll as scroll } from "react-scroll";
-import cv from "../../assets/OliviaBucklandCV.pdf";
+import cv from "../../assets/CV_Jan23.pdf";
 import About from "../About/About";
 
 const NavBar = () => {

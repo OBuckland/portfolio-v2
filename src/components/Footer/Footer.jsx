@@ -1,5 +1,5 @@
 import React from "react";
-import cv from "../../assets/OliviaBucklandCV.pdf";
+import cv from "../../assets/CV_Jan23"
 import styles from "./Footer.module.scss";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope, faFile } from "@fortawesome/free-solid-svg-icons";
