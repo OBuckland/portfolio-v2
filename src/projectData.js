@@ -20,7 +20,7 @@ export const projectData = [
         description: <p>This is a React app. It displays Brewdog beers, each beer has a name, image, ABV and tagline. There is a filter function to refine the user's search. <br /> <br />Data has been taken from the Punk API, which contains the beer data used for the app. The app has been unit tested using Enzyme.</p>,
         image: brewdog,
         technologies: ["React"],
-        gitHub: "https://github.com/OBuckland/mastermind-game",
+        gitHub: "https://github.com/OBuckland/brewdog",
         url: ""    
     },
     {
